@@ -17,6 +17,7 @@ let arr2 = [
 
 let output = arr2.map((v,i) => {
   let namePart = v.split(" ");
+  
   let fname = namePart[0]
   let lname = namePart[1]
   let fnfc = fname[0];
